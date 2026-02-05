@@ -1,0 +1,27 @@
+Intuition:
+A right-angled triangle pattern grows row by row.
+The first row contains one star, the second row contains two stars, and in general,
+the i-th row contains i stars.
+
+Why brute force fails:
+There is no shortcut to avoid printing the stars.
+Since the total number of stars printed is 1 + 2 + ... + n, every character must be output.
+This enforces the time complexity regardless of the implementation.
+
+Approach:
+Run a loop from 1 to N.
+In each iteration, print a string of '*' repeated i times to form the current row.
+
+Time Complexity:
+O(n^2) since the total number of printed characters grows on the order of n².
+
+Space Complexity:
+O(1) since no additinal data structure was used
+
+Edge Cases:
+n = 0 - nothing is printed
+
+What I’d say in an interview:
+Each row contains as many stars as its row number.
+By looping from 1 to N and printing i stars per row, we directly construct the pattern.
+The time complexity is unavoidable because all stars must be printed.
