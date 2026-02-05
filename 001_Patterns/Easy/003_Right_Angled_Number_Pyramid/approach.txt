@@ -1,0 +1,29 @@
+Intuition:
+The pattern consists of N rows.
+In the i-th row, numbers are printed sequentially from 1 up to i.
+Each row therefore grows by one number compared to the previous row.
+
+Why brute force fails:
+There is no way to avoid printing every number in the pattern.
+Since the total count of printed numbers grows as 1 + 2 + ... + N,
+the required work is inherent to the output itself.
+
+Approach:
+Run an outer loop from 1 to N to control the rows.
+For each row i, run an inner loop from 1 to i and print the numbers sequentially.
+Print a newline after completing each row.
+
+Time Complexity:
+O(n^2) since the total number of printed values grows on the order of n^2.
+
+Space Complexity:
+O(1) since no additional data structures were used
+
+Edge Cases:
+n = 0 - nothing is printed
+
+What I’d say in an interview:
+Each row prints numbers from 1 up to its row index.
+By nesting a loop that runs up to the current row inside a loop from 1 to N,
+we can directly generate the required number pyramid.
+The time complexity is unavoidable because all numbers must be printed.
