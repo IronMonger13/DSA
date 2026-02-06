@@ -1,13 +1,30 @@
-Intuition:
+CODE SOLUTION:
+The actual working solution.
 
-Why brute force fails:
 
-Approach:
+INTUITION:
+Explain the problem in simple language.
 
-Time Complexity:
 
-Space Complexity:
+WHY BRUTE FORCE FAILS:
+Why brute force is bad, or if brute force is acceptable.
 
-Edge Cases:
 
-What I’d say in an interview:
+APPROACH:
+Step-by-step logic of how the problem is solved.
+
+
+TIME COMPLEXITY:
+What and why?
+
+
+SPACE COMPLEXITY:
+What and why?
+
+
+EDGE CASES:
+Important boundary conditions
+
+
+WHAT I'D SAY IN AN INTERVIEW:
+A short, confident explanation of the solution.
