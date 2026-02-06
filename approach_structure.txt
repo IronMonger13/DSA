@@ -1,17 +1,17 @@
-CODE SOLUTION:
-The actual working solution.
-
-
 INTUITION:
 Explain the problem in simple language.
 
 
-WHY BRUTE FORCE FAILS:
-Why brute force is bad, or if brute force is acceptable.
-
-
 APPROACH:
 Step-by-step logic of how the problem is solved.
+
+
+EDGE CASES:
+Important boundary conditions
+
+
+CODE SOLUTION:
+The actual working solution.
 
 
 TIME COMPLEXITY:
@@ -22,8 +22,8 @@ SPACE COMPLEXITY:
 What and why?
 
 
-EDGE CASES:
-Important boundary conditions
+WHY BRUTE FORCE FAILS:
+Why brute force is bad, or if brute force is acceptable.
 
 
 WHAT I'D SAY IN AN INTERVIEW:
