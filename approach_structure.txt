@@ -1,13 +1,23 @@
+Code solution:
+The actual working solution.
+
 Intuition:
+Explain the problem in simple language.
 
 Why brute force fails:
+Why brute force is bad, or if brute force is acceptable.
 
 Approach:
+Step-by-step logic of how the problem is solved.
 
 Time Complexity:
+What and why?
 
 Space Complexity:
+What and why?
 
 Edge Cases:
+Important boundary conditions
 
 What I’d say in an interview:
+A short, confident explanation of the solution.
