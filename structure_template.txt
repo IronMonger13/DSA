@@ -23,8 +23,11 @@ What and why?
 
 
 WHY BRUTE FORCE FAILS:
-Why brute force is bad, or if brute force is acceptable.
+Why brute force is inefficient, or if brute force is acceptable.
 
 
 WHAT I'D SAY IN AN INTERVIEW:
-A short, confident explanation of the solution.
+Explain in 3 points:
+1. What the problem is asking.
+2. The core idea / logic of the solution.
+3. Time and space complexity.
